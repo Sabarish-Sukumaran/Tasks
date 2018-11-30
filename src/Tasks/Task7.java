@@ -1,9 +1,9 @@
 package Tasks;
 import java.util.Scanner;
- public class Task7
+ class Task7
 {
-    static Scanner sc = new Scanner(System.in);
-    public void sum()
+    private static Scanner sc = new Scanner(System.in);
+    void sum()
      {
         System.out.println("Please enter a number:");
         int a= sc.nextInt();
